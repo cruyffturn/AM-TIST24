@@ -3,8 +3,7 @@ into two subfolders:
 i. chain_tree_sachs and 
 ii. erdosrenyi
 
-The first folder, "chain_tree_sachs", is used for the experiments 
-involving:
+The first folder, "chain_tree_sachs", is used for the experiments involving:
 -linear SCMs with Gaussian noise,
 -chain graphs, binary tree graphs, Sachs dataset.
 
