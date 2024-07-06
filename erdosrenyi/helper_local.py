@@ -48,4 +48,4 @@ def get_savePath(bool_repeat):
 
 def get_condaPath():
         
-    return 'miniconda3/envs/missdag_mlp/bin/python'
+    return '~/miniconda3/envs/missdag_mlp/bin/python'
