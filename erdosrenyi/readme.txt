@@ -44,7 +44,7 @@ get_condaPath in helper_local.py to reflect the python path. Ex:
 
 As the initial step, set the working directory to this folder containing the readme.txt file.
 
-i. Linear ANMs with Gaussian Noise
+i) Linear ANMs with Gaussian Noise
 
 Step 1. Call the main.py with arguments 1 1 1 as follows:
 python main.py 1 1 1
@@ -52,10 +52,7 @@ python main.py 1 1 1
 Step 2. The summary table will be in the folder 04_19/output_result/ for missDAG algorithm
 -results_exp_type_0_0.125_type_graph_er_type_noise_normal_type_scm_linear_short.xlsx
 
-
-#To run the non-Gaussian and nonlinear experiments you need to configure 
-
-ii. Linear ANMs with Laplace Noise
+ii) Linear ANMs with Laplace Noise
 
 Step 1. Change the file cfgs/er.py by seting type_noise = 'laplace' in function get_cfg().
 
@@ -65,7 +62,7 @@ python main.py 1 1 1
 Step 3. The summary table will be in the folder 04_19/output_result/ for missDAG-ICA algorithm
 -results_exp_type_0_0.125_type_graph_er_type_noise_laplace_type_scm_linear_short.xlsx
 
-iii. Linear ANMs with Gumbel Noise
+iii) Linear ANMs with Gumbel Noise
 
 Step 1. Change the file cfgs/er.py by seting type_noise = 'gumbel' in function get_cfg().
 
@@ -75,7 +72,7 @@ python main.py 1 1 1
 Step 3. The summary table will be in the folder 04_19/output_result/ for missDAG-ICA algorithm
 -results_exp_type_0_0.125_type_graph_er_type_noise_gumbel_type_scm_linear_short.xlsx
 
-iv. Nonlinear ANMs with Gaussian Noise
+iv) Nonlinear ANMs with Gaussian Noise
 
 Step 1. Change the file helper_sim by seting type_scm = 'mlp' in function get_cfg(). 
 
@@ -97,6 +94,7 @@ Step 6. The summary table will be in the folder 04_19/output_result/ for missDAG
 Disclaimer:
 
 The code provided in External/MissDAG contains a modified version of the github repository 
-https://github.com/ErdunGAO/MissDAG corresponding to the Neurips '22 paper "MissDAG: Causal Discovery in the Presence of Missing Data with Continuous Additive Noise Models".
+https://github.com/ErdunGAO/MissDAG corresponding to the Neurips '22 paper 
+"MissDAG: Causal Discovery in the Presence of Missing Data with Continuous Additive Noise Models".
 The original repo does not have an explicit license. This modified version is made available 
 for academic research purposes only. 
