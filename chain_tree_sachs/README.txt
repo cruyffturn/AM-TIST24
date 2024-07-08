@@ -10,6 +10,7 @@ causallearn               0.1.3.1
 networkx                  2.7.1
 joblib                    0.17.0
 seaborn                   0.12.0
+xlrd                      1.2.0
 
 #List of core files
 
