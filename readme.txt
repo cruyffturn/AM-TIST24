@@ -1,4 +1,5 @@
-This repository contains our code accompanying the ACM TIST paper. It is organized 
+This repository contains our code accompanying the ACM TIST paper 
+"Adversarial Missingness Attacks on Causal Structure Learning". It is organized 
 into two subfolders:
 i. chain_tree_sachs and 
 ii. erdosrenyi
